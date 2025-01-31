@@ -7,6 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
+    "lint:fix": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0 --fix",
+    "format": "prettier --write --cache .",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -19,10 +21,12 @@
     "@types/react-dom": "^18.3.5",
     "@vitejs/plugin-react-swc": "^3.5.0",
     "eslint": "^9.17.0",
+    "eslint-config-prettier": "^10.0.1",
     "eslint-plugin-react": "^7.37.2",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.16",
     "globals": "^15.14.0",
+    "prettier": "3.4.2",
     "vite": "^6.0.5"
   }
 }
