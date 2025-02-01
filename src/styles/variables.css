@@ -1,5 +1,13 @@
+@font-face {
+  font-family: 'RIDIBatang';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
-  --body-font: 'Noto Sans KR', sans-serif;
+  --body-font: 'RIDIBatang', 'Noto Sans KR', sans-serif;
 
   /* Colors */
   --white-color: #ffffff;
