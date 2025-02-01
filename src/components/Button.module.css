@@ -1,0 +1,29 @@
+.button {
+  font-weight: var(--font-weight-black);
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.button.primary {
+  background-color: #f5cb5c;
+  color: 242423;
+}
+.button.primary:hover {
+  background-color: #fca311;
+}
+
+.button.secondary {
+  background-color: #6c757d;
+  color: white;
+}
+
+.button.danger {
+  background-color: #dc3545;
+  color: white;
+}
+
+.button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
