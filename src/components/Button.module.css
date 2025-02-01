@@ -6,7 +6,7 @@
 }
 
 .button.primary {
-  background-color: #f5cb5c;
+  background-color: var(--primary-color);
   color: 242423;
 }
 .button.primary:hover {

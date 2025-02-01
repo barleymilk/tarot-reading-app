@@ -1,5 +1,5 @@
 .header {
-  background-color: #242423;
+  background-color: var(--dark-color);
   color: var(--white-color);
   position: fixed;
   top: 0;
@@ -23,7 +23,7 @@
   height: 42px;
 }
 .nav__brand {
-  color: #f5cb5c;
+  color: var(--primary-color);
   font-size: var(--font-size-4);
 }
 .nav__menu {
@@ -38,7 +38,7 @@
   color: #cfdbd5;
 }
 .active {
-  color: #f5cb5c;
+  color: var(--primary-color);
 }
 .divider,
 .sign_in {
