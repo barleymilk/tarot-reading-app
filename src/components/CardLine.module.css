@@ -1,0 +1,24 @@
+.card_wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0 10px 100px; /* padding-left: 중앙 정렬을 위해 .card의 margin-left와 수치 맞춤  */
+}
+
+.card {
+  width: 80px;
+  height: 120px;
+  border-radius: 4px;
+  background-image: url(/images/cards/card_back.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-left: -100px; /* 카드 겹치기 */
+  cursor: pointer;
+  transition:
+    transform 0.6s ease,
+    margin-top 0.6s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
