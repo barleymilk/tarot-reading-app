@@ -1,0 +1,5 @@
+.section__paragraph {
+  font-size: var(--font-size-5);
+  text-align: left;
+  padding: var(--spacing-1) 0;
+}
