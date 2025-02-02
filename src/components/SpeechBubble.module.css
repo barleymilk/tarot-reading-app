@@ -1,0 +1,44 @@
+.speech_bubble {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width: 200px;
+  height: 80px;
+  border-radius: 12px;
+  background-color: var(--white-color);
+  color: var(--black-color);
+  font-size: var(--font-size-5);
+  font-weight: var(--font-weight-bold);
+  text-align: center;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  z-index: 2; /* 말풍선을 앞으로 */
+}
+
+.speech_bubble:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 0;
+  height: 0;
+  border: 30px solid transparent;
+  border-right-color: var(--white-color);
+  border-left: 0;
+  border-bottom: 0;
+  margin-top: -10px;
+  margin-left: -15px;
+  z-index: 1; /* 삼각형을 뒤로 */
+}
+
+.speech {
+  padding: 10px;
+  width: 100%;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  line-height: 1.4;
+}
