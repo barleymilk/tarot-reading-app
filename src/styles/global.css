@@ -4,7 +4,7 @@ html {
 
 body {
   margin-top: calc(var(--header-height) + 40px);
-  background-color: #333533;
+  background-color: var(--grey-color);
   color: var(--white-color);
 }
 
