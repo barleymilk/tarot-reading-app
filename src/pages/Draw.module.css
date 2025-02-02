@@ -1,0 +1,53 @@
+/* counseller */
+.counselor {
+  display: flex;
+  justify-content: center;
+}
+
+.image_box {
+  width: 124px;
+  height: 124px;
+  display: flex;
+  margin-right: 10px;
+}
+
+.image {
+  width: 100%;
+}
+
+.card_table {
+  background-color: var(--dark-color);
+  border-radius: 12px;
+  margin: 20px 0;
+}
+
+.selected {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.selected_card_position {
+  width: 90px;
+  height: 130px;
+  background-color: var(--grey-color);
+  margin-right: 60px;
+  border-radius: 4px;
+}
+
+.selected_card_position:last-child {
+  margin-right: 0;
+}
+
+.selected_card {
+  width: 80px;
+  height: 120px;
+  margin: 5px 0 0 5px;
+  border-radius: 4px;
+  background-image: url(/images/cards/card_back.png);
+  background-size: cover;
+}
+
+.hidden {
+  display: none;
+}
