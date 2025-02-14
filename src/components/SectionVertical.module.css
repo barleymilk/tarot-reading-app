@@ -1,0 +1,44 @@
+.section {
+  background-color: var(--white-color);
+  color: var(--black-color);
+  border-radius: 8px;
+  flex: 1; /* 동일한 너비 */
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: 900;
+}
+
+.line {
+  margin: 24px 0 24px 0;
+  border: none;
+  border-top: 1px solid #d4d4d4;
+}
+
+.small_dot {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.small_dot li {
+  text-align: left;
+  position: relative;
+  margin: 2px 0 0 0;
+  padding: 0 0 4px 16px;
+  color: var(--black-color);
+}
+
+.small_dot li:before {
+  content: '';
+  position: absolute;
+  top: 11px;
+  left: 5px;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  background-color: var(--black-color);
+}
