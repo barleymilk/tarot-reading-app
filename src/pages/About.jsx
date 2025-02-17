@@ -3,24 +3,39 @@ import Footer from '../components/Footer';
 import FloatingButton from '../components/FloatingButton';
 import Section from '../components/Section';
 import Table from '../components/Table';
-import { cards } from '../db/cards.json';
+import { card } from '../db/card.json';
 import styles from './About.module.css';
 
 const majorHeaders = ['번호', '이름', '정방향', '역방향'];
-const majorData = cards.major.map(card => [
-  card.id,
-  `${card.korean} (${card.name})`,
-  card.upright.join(', '),
-  card.reversed.join(', '),
-]);
+
+// Major Arcana 배열 생성
+const majorData = card
+  .filter(data => data.major === true)
+  .map(data => [
+    data.card_id,
+    `${data.korean_name} (${data.name})`,
+    data.upright.join(', '),
+    data.reversed.join(', '),
+  ]);
 
 const minorHeaders = ['번호', 'Wands', 'Cups', 'Swords', 'Pentacles'];
-const minorData = cards.minor.wands.map((_, index) => [
-  index < 10 ? index + 1 : ['Page', 'Knight', 'Queen', 'King'][index - 10],
-  cards.minor.wands[index]?.meaning || '',
-  cards.minor.cups[index]?.meaning || '',
-  cards.minor.swords[index]?.meaning || '',
-  cards.minor.pentacles[index]?.meaning || '',
+
+// Minor Arcana 필터링
+const minorCards = card.filter(card => !card.major);
+
+// 슈트별 데이터 정리
+const wands = minorCards.filter(card => card.name.includes('Wands'));
+const cups = minorCards.filter(card => card.name.includes('Cups'));
+const swords = minorCards.filter(card => card.name.includes('Swords'));
+const pentacles = minorCards.filter(card => card.name.includes('Pentacles'));
+
+// 14개의 카드별로 배열 생성
+const minorData = wands.map((wand, index) => [
+  wand.card_id, // 1 ~ 10 또는 Page, Knight, Queen, King
+  wand.upright.join(', '),
+  cups[index].upright.join(', '),
+  swords[index].upright.join(', '),
+  pentacles[index].upright.join(', '),
 ]);
 
 function About() {

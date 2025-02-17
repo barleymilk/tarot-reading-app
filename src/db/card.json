@@ -1,0 +1,784 @@
+{
+  "card": [
+    {
+      "id": 0,
+      "card_id": "0",
+      "name": "The Fool",
+      "korean_name": "바보",
+      "upright": ["모험", "무지"],
+      "reversed": ["경솔", "어리석음"],
+      "img_path": "cards/major_0.jpg",
+      "major": true
+    },
+    {
+      "id": 1,
+      "card_id": "1",
+      "name": "The Magician",
+      "korean_name": "마법사",
+      "upright": ["능력", "창조"],
+      "reversed": ["속임수", "조작"],
+      "img_path": "cards/major_1.jpg",
+      "major": true
+    },
+    {
+      "id": 2,
+      "card_id": "2",
+      "name": "The High Priestess",
+      "korean_name": "여사제",
+      "upright": ["지식", "총명"],
+      "reversed": ["잔혹", "무례함"],
+      "img_path": "cards/major_2.jpg",
+      "major": true
+    },
+    {
+      "id": 3,
+      "card_id": "3",
+      "name": "The Empress",
+      "korean_name": "여왕",
+      "upright": ["풍양", "모성"],
+      "reversed": ["과잉", "허영"],
+      "img_path": "cards/major_3.jpg",
+      "major": true
+    },
+    {
+      "id": 4,
+      "card_id": "4",
+      "name": "The Emperor",
+      "korean_name": "황제",
+      "upright": ["책임", "부성"],
+      "reversed": ["오만", "존대"],
+      "img_path": "cards/major_4.jpg",
+      "major": true
+    },
+    {
+      "id": 5,
+      "card_id": "5",
+      "name": "The Hierophant",
+      "korean_name": "교황",
+      "upright": ["가르침", "관대함"],
+      "reversed": ["협량", "나태"],
+      "img_path": "cards/major_5.jpg",
+      "major": true
+    },
+    {
+      "id": 6,
+      "card_id": "6",
+      "name": "The Lovers",
+      "korean_name": "연인",
+      "upright": ["연애", "쾌락"],
+      "reversed": ["질투", "배신", "실연"],
+      "img_path": "cards/major_6.jpg",
+      "major": true
+    },
+    {
+      "id": 7,
+      "card_id": "7",
+      "name": "The Chariot",
+      "korean_name": "전차",
+      "upright": ["전진", "승리"],
+      "reversed": ["폭주", "좌절", "패배"],
+      "img_path": "cards/major_7.jpg",
+      "major": true
+    },
+    {
+      "id": 8,
+      "card_id": "8",
+      "name": "Strength",
+      "korean_name": "힘",
+      "upright": ["힘", "용기"],
+      "reversed": ["본성", "자만"],
+      "img_path": "cards/major_8.jpg",
+      "major": true
+    },
+    {
+      "id": 9,
+      "card_id": "9",
+      "name": "The Hermit",
+      "korean_name": "은둔자",
+      "upright": ["탐색", "사려깊음"],
+      "reversed": ["음습", "폐쇄적", "탐욕"],
+      "img_path": "cards/major_9.jpg",
+      "major": true
+    },
+    {
+      "id": 10,
+      "card_id": "10",
+      "name": "Wheel of Fortune",
+      "korean_name": "운명의 수레바퀴",
+      "upright": ["기회", "일시적인 행운"],
+      "reversed": ["오산", "불운"],
+      "img_path": "cards/major_10.jpg",
+      "major": true
+    },
+    {
+      "id": 11,
+      "card_id": "11",
+      "name": "Justice",
+      "korean_name": "정의",
+      "upright": ["균형", "정당함"],
+      "reversed": ["불균형", "편견", "부정"],
+      "img_path": "cards/major_11.jpg",
+      "major": true
+    },
+    {
+      "id": 12,
+      "card_id": "12",
+      "name": "The Hanged Man",
+      "korean_name": "매달린 사람",
+      "upright": ["자기희생", "인내"],
+      "reversed": ["무의미한 희생", "맹목"],
+      "img_path": "cards/major_12.jpg",
+      "major": true
+    },
+    {
+      "id": 13,
+      "card_id": "13",
+      "name": "Death",
+      "korean_name": "죽음",
+      "upright": ["격변", "이별"],
+      "reversed": ["변화의 유보", "고착"],
+      "img_path": "cards/major_13.jpg",
+      "major": true
+    },
+    {
+      "id": 14,
+      "card_id": "14",
+      "name": "Temperance",
+      "korean_name": "절제",
+      "upright": ["조화", "견실"],
+      "reversed": ["낭비", "불안정"],
+      "img_path": "cards/major_14.jpg",
+      "major": true
+    },
+    {
+      "id": 15,
+      "card_id": "15",
+      "name": "The Devil",
+      "korean_name": "악마",
+      "upright": ["사심", "속박", "타락"],
+      "reversed": ["악순환으로부터의 각성"],
+      "img_path": "cards/major_15.jpg",
+      "major": true
+    },
+    {
+      "id": 16,
+      "card_id": "16",
+      "name": "The Tower",
+      "korean_name": "탑",
+      "upright": ["파괴", "파멸"],
+      "reversed": ["필요로 하는 파괴"],
+      "img_path": "cards/major_16.jpg",
+      "major": true
+    },
+    {
+      "id": 17,
+      "card_id": "17",
+      "name": "The Star",
+      "korean_name": "별",
+      "upright": ["희망", "동경"],
+      "reversed": ["환멸", "비애"],
+      "img_path": "cards/major_17.jpg",
+      "major": true
+    },
+    {
+      "id": 18,
+      "card_id": "18",
+      "name": "The Moon",
+      "korean_name": "달",
+      "upright": ["불안", "애매함", "혼돈"],
+      "reversed": ["불안 해소", "명료함", "혼돈의 끝"],
+      "img_path": "cards/major_18.jpg",
+      "major": true
+    },
+    {
+      "id": 19,
+      "card_id": "19",
+      "name": "The Sun",
+      "korean_name": "태양",
+      "upright": ["밝은 미래", "만족"],
+      "reversed": ["연기", "실패"],
+      "img_path": "cards/major_19.jpg",
+      "major": true
+    },
+    {
+      "id": 20,
+      "card_id": "20",
+      "name": "Judgement",
+      "korean_name": "심판",
+      "upright": ["부활", "개선"],
+      "reversed": ["재기불능", "후회"],
+      "img_path": "cards/major_20.jpg",
+      "major": true
+    },
+    {
+      "id": 21,
+      "card_id": "21",
+      "name": "The World",
+      "korean_name": "세계",
+      "upright": ["완성", "완전"],
+      "reversed": ["미완성", "어중간함"],
+      "img_path": "cards/major_21.jpg",
+      "major": true
+    },
+    {
+      "id": 22,
+      "card_id": "1",
+      "name": "Ace of Wands",
+      "korean_name": "완드 에이스",
+      "upright": ["창조력", "출발"],
+      "reversed": ["무기력", "지연"],
+      "img_path": "cards/minor_wands_1.jpg",
+      "major": false
+    },
+    {
+      "id": 23,
+      "card_id": "2",
+      "name": "Two of Wands",
+      "korean_name": "완드 2",
+      "upright": ["재산", "장엄함"],
+      "reversed": ["불안정", "결단 부족"],
+      "img_path": "cards/minor_wands_2.jpg",
+      "major": false
+    },
+    {
+      "id": 24,
+      "card_id": "3",
+      "name": "Three of Wands",
+      "korean_name": "완드 3",
+      "upright": ["확립된 힘", "교역"],
+      "reversed": ["기회 상실", "실패"],
+      "img_path": "cards/minor_wands_3.jpg",
+      "major": false
+    },
+    {
+      "id": 25,
+      "card_id": "4",
+      "name": "Four of Wands",
+      "korean_name": "완드 4",
+      "upright": ["작업의 완성", "휴식"],
+      "reversed": ["불안정한 기초", "예기치 않은 방해"],
+      "img_path": "cards/minor_wands_4.jpg",
+      "major": false
+    },
+    {
+      "id": 26,
+      "card_id": "5",
+      "name": "Five of Wands",
+      "korean_name": "완드 5",
+      "upright": ["치열한 경쟁", "스포츠"],
+      "reversed": ["혼란", "갈등 회피"],
+      "img_path": "cards/minor_wands_5.jpg",
+      "major": false
+    },
+    {
+      "id": 27,
+      "card_id": "6",
+      "name": "Six of Wands",
+      "korean_name": "완드 6",
+      "upright": ["승리자", "대뉴스의 도달"],
+      "reversed": ["지연된 인정", "자만"],
+      "img_path": "cards/minor_wands_6.jpg",
+      "major": false
+    },
+    {
+      "id": 28,
+      "card_id": "7",
+      "name": "Seven of Wands",
+      "korean_name": "완드 7",
+      "upright": ["용기", "토론"],
+      "reversed": ["방어 실패", "압박"],
+      "img_path": "cards/minor_wands_7.jpg",
+      "major": false
+    },
+    {
+      "id": 29,
+      "card_id": "8",
+      "name": "Eight of Wands",
+      "korean_name": "완드 8",
+      "upright": ["활동성", "재빠름"],
+      "reversed": ["지연", "혼란"],
+      "img_path": "cards/minor_wands_8.jpg",
+      "major": false
+    },
+    {
+      "id": 30,
+      "card_id": "9",
+      "name": "Nine of Wands",
+      "korean_name": "완드 9",
+      "upright": ["억압된 상황에서의 강함"],
+      "reversed": ["방어적 태도", "피로"],
+      "img_path": "cards/minor_wands_9.jpg",
+      "major": false
+    },
+    {
+      "id": 31,
+      "card_id": "10",
+      "name": "Ten of Wands",
+      "korean_name": "완드 10",
+      "upright": ["억압", "너무 많은 재산"],
+      "reversed": ["과중한 부담", "책임 회피"],
+      "img_path": "cards/minor_wands_10.jpg",
+      "major": false
+    },
+    {
+      "id": 32,
+      "card_id": "Page",
+      "name": "Page of Wands",
+      "korean_name": "완드 페이지",
+      "upright": ["젊은 남성", "충실"],
+      "reversed": ["충동적 행동", "미숙함"],
+      "img_path": "cards/minor_wands_11.jpg",
+      "major": false
+    },
+    {
+      "id": 33,
+      "card_id": "Knight",
+      "name": "Knight of Wands",
+      "korean_name": "완드 기사",
+      "upright": ["출발", "친숙한 젊은이"],
+      "reversed": ["경솔한 결정", "참을성 부족"],
+      "img_path": "cards/minor_wands_12.jpg",
+      "major": false
+    },
+    {
+      "id": 34,
+      "card_id": "Queen",
+      "name": "Queen of Wands",
+      "korean_name": "완드 여왕",
+      "upright": ["친숙한", "정적"],
+      "reversed": ["질투", "조작적 성격"],
+      "img_path": "cards/minor_wands_13.jpg",
+      "major": false
+    },
+    {
+      "id": 35,
+      "card_id": "King",
+      "name": "King of Wands",
+      "korean_name": "완드 왕",
+      "upright": ["정직", "양심적"],
+      "reversed": ["독재적 성향", "완고함"],
+      "img_path": "cards/minor_wands_14.jpg",
+      "major": false
+    },
+    {
+      "id": 36,
+      "card_id": "1",
+      "name": "Ace of Cups",
+      "korean_name": "컵 에이스",
+      "upright": ["기쁨", "만족"],
+      "reversed": ["감정적 불안정", "실망"],
+      "img_path": "cards/minor_cups_1.jpg",
+      "major": false
+    },
+    {
+      "id": 37,
+      "card_id": "2",
+      "name": "Two of Cups",
+      "korean_name": "컵 2",
+      "upright": ["사랑", "우정"],
+      "reversed": ["관계 단절", "의심"],
+      "img_path": "cards/minor_cups_2.jpg",
+      "major": false
+    },
+    {
+      "id": 38,
+      "card_id": "3",
+      "name": "Three of Cups",
+      "korean_name": "컵 3",
+      "upright": ["풍족함", "행복"],
+      "reversed": ["과도한 기쁨", "방탕"],
+      "img_path": "cards/minor_cups_3.jpg",
+      "major": false
+    },
+    {
+      "id": 39,
+      "card_id": "4",
+      "name": "Four of Cups",
+      "korean_name": "컵 4",
+      "upright": ["권태", "포식"],
+      "reversed": ["새로운 기회", "무관심 극복"],
+      "img_path": "cards/minor_cups_4.jpg",
+      "major": false
+    },
+    {
+      "id": 40,
+      "card_id": "5",
+      "name": "Five of Cups",
+      "korean_name": "컵 5",
+      "upright": ["손실", "별거 아닌 유산"],
+      "reversed": ["희망 회복", "새로운 시작"],
+      "img_path": "cards/minor_cups_5.jpg",
+      "major": false
+    },
+    {
+      "id": 41,
+      "card_id": "6",
+      "name": "Six of Cups",
+      "korean_name": "컵 6",
+      "upright": ["과거를 돌이켜봄", "행복"],
+      "reversed": ["과거에 집착", "성장 부족"],
+      "img_path": "cards/minor_cups_6.jpg",
+      "major": false
+    },
+    {
+      "id": 42,
+      "card_id": "7",
+      "name": "Seven of Cups",
+      "korean_name": "컵 7",
+      "upright": ["환상", "약간의 성공"],
+      "reversed": ["현실 직시", "혼란 해소"],
+      "img_path": "cards/minor_cups_7.jpg",
+      "major": false
+    },
+    {
+      "id": 43,
+      "card_id": "8",
+      "name": "Eight of Cups",
+      "korean_name": "컵 8",
+      "upright": ["성공의 방치", "겸손"],
+      "reversed": ["포기하지 않음", "되돌아옴"],
+      "img_path": "cards/minor_cups_8.jpg",
+      "major": false
+    },
+    {
+      "id": 44,
+      "card_id": "9",
+      "name": "Nine of Cups",
+      "korean_name": "컵 9",
+      "upright": ["물질적 안녕", "만족"],
+      "reversed": ["과도한 만족", "탐욕"],
+      "img_path": "cards/minor_cups_9.jpg",
+      "major": false
+    },
+    {
+      "id": 45,
+      "card_id": "10",
+      "name": "Ten of Cups",
+      "korean_name": "컵 10",
+      "upright": ["만족", "가정"],
+      "reversed": ["불안한 가정", "깨진 조화"],
+      "img_path": "cards/minor_cups_10.jpg",
+      "major": false
+    },
+    {
+      "id": 46,
+      "card_id": "Page",
+      "name": "Page of Cups",
+      "korean_name": "컵 페이지",
+      "upright": ["공부에 힘쓰는 젊은이", "숙고"],
+      "reversed": ["감정적 미성숙", "혼란"],
+      "img_path": "cards/minor_cups_11.jpg",
+      "major": false
+    },
+    {
+      "id": 47,
+      "card_id": "Knight",
+      "name": "Knight of Cups",
+      "korean_name": "컵 기사",
+      "upright": ["도착", "발전"],
+      "reversed": ["현실 도피", "거짓된 감정"],
+      "img_path": "cards/minor_cups_12.jpg",
+      "major": false
+    },
+    {
+      "id": 48,
+      "card_id": "Queen",
+      "name": "Queen of Cups",
+      "korean_name": "컵 여왕",
+      "upright": ["선량한", "행복"],
+      "reversed": ["감정적 불안", "과민반응"],
+      "img_path": "cards/minor_cups_13.jpg",
+      "major": false
+    },
+    {
+      "id": 49,
+      "card_id": "King",
+      "name": "King of Cups",
+      "korean_name": "컵 왕",
+      "upright": ["공정한", "창조적 지성"],
+      "reversed": ["감정 조절 실패", "우유부단"],
+      "img_path": "cards/minor_cups_14.jpg",
+      "major": false
+    },
+    {
+      "id": 50,
+      "card_id": "1",
+      "name": "Ace of Swords",
+      "korean_name": "소드 에이스",
+      "upright": ["힘의 승리", "권력"],
+      "reversed": ["남용된 권력", "비윤리적 행동"],
+      "img_path": "cards/minor_swords_1.jpg",
+      "major": false
+    },
+    {
+      "id": 51,
+      "card_id": "2",
+      "name": "Two of Swords",
+      "korean_name": "소드 2",
+      "upright": ["균형", "조건부의 조화"],
+      "reversed": ["결단 부족", "혼란"],
+      "img_path": "cards/minor_swords_2.jpg",
+      "major": false
+    },
+    {
+      "id": 52,
+      "card_id": "3",
+      "name": "Three of Swords",
+      "korean_name": "소드 3",
+      "upright": ["후퇴", "단절"],
+      "reversed": ["상처 회복", "용서"],
+      "img_path": "cards/minor_swords_3.jpg",
+      "major": false
+    },
+    {
+      "id": 53,
+      "card_id": "4",
+      "name": "Four of Swords",
+      "korean_name": "소드 4",
+      "upright": ["은둔", "회복"],
+      "reversed": ["스트레스 증가", "휴식 부족"],
+      "img_path": "cards/minor_swords_4.jpg",
+      "major": false
+    },
+    {
+      "id": 54,
+      "card_id": "5",
+      "name": "Five of Swords",
+      "korean_name": "소드 5",
+      "upright": ["타락", "폐지"],
+      "reversed": ["화해", "패배 인정"],
+      "img_path": "cards/minor_swords_5.jpg",
+      "major": false
+    },
+    {
+      "id": 55,
+      "card_id": "6",
+      "name": "Six of Swords",
+      "korean_name": "소드 6",
+      "upright": ["작업을 끝마침", "중개자"],
+      "reversed": ["어려움 지속", "이동 불가"],
+      "img_path": "cards/minor_swords_6.jpg",
+      "major": false
+    },
+    {
+      "id": 56,
+      "card_id": "7",
+      "name": "Seven of Swords",
+      "korean_name": "소드 7",
+      "upright": ["기획", "계획"],
+      "reversed": ["속임수 발각", "불명예"],
+      "img_path": "cards/minor_swords_7.jpg",
+      "major": false
+    },
+    {
+      "id": 57,
+      "card_id": "8",
+      "name": "Eight of Swords",
+      "korean_name": "소드 8",
+      "upright": ["구속된 힘", "비난"],
+      "reversed": ["자유 획득", "두려움 극복"],
+      "img_path": "cards/minor_swords_8.jpg",
+      "major": false
+    },
+    {
+      "id": 58,
+      "card_id": "9",
+      "name": "Nine of Swords",
+      "korean_name": "소드 9",
+      "upright": ["실망", "환멸"],
+      "reversed": ["걱정 극복", "희망 발견"],
+      "img_path": "cards/minor_swords_9.jpg",
+      "major": false
+    },
+    {
+      "id": 59,
+      "card_id": "10",
+      "name": "Ten of Swords",
+      "korean_name": "소드 10",
+      "upright": ["황폐", "고통"],
+      "reversed": ["회복", "새로운 시작"],
+      "img_path": "cards/minor_swords_10.jpg",
+      "major": false
+    },
+    {
+      "id": 60,
+      "card_id": "Page",
+      "name": "Page of Swords",
+      "korean_name": "소드 페이지",
+      "upright": ["감시", "경계"],
+      "reversed": ["부정확한 정보", "불신"],
+      "img_path": "cards/minor_swords_11.jpg",
+      "major": false
+    },
+    {
+      "id": 61,
+      "card_id": "Knight",
+      "name": "Knight of Swords",
+      "korean_name": "소드 기사",
+      "upright": ["용감함", "격노"],
+      "reversed": ["성급함", "충동적 행동"],
+      "img_path": "cards/minor_swords_12.jpg",
+      "major": false
+    },
+    {
+      "id": 62,
+      "card_id": "Queen",
+      "name": "Queen of Swords",
+      "korean_name": "소드 여왕",
+      "upright": ["결단력 있는", "미망인"],
+      "reversed": ["잔인함", "냉정함"],
+      "img_path": "cards/minor_swords_13.jpg",
+      "major": false
+    },
+    {
+      "id": 63,
+      "card_id": "King",
+      "name": "King of Swords",
+      "korean_name": "소드 왕",
+      "upright": ["재판관", "정의"],
+      "reversed": ["냉혹함", "독재"],
+      "img_path": "cards/minor_swords_14.jpg",
+      "major": false
+    },
+    {
+      "id": 64,
+      "card_id": "1",
+      "name": "Ace of Pentacles",
+      "korean_name": "펜타클 에이스",
+      "upright": ["완전한 만족", "돈"],
+      "reversed": ["기회 상실", "재정적 손실"],
+      "img_path": "cards/minor_pentacles_1.jpg",
+      "major": false
+    },
+    {
+      "id": 65,
+      "card_id": "2",
+      "name": "Two of Pentacles",
+      "korean_name": "펜타클 2",
+      "upright": ["명랑함", "문서에 의한 뉴스·메시지"],
+      "reversed": ["우유부단", "균형 상실"],
+      "img_path": "cards/minor_pentacles_2.jpg",
+      "major": false
+    },
+    {
+      "id": 66,
+      "card_id": "3",
+      "name": "Three of Pentacles",
+      "korean_name": "펜타클 3",
+      "upright": ["기예", "거래"],
+      "reversed": ["미숙함", "팀워크 부족"],
+      "img_path": "cards/minor_pentacles_3.jpg",
+      "major": false
+    },
+    {
+      "id": 67,
+      "card_id": "4",
+      "name": "Four of Pentacles",
+      "korean_name": "펜타클 4",
+      "upright": ["소유의 보정", "집착"],
+      "reversed": ["욕심", "재산 손실"],
+      "img_path": "cards/minor_pentacles_4.jpg",
+      "major": false
+    },
+    {
+      "id": 68,
+      "card_id": "5",
+      "name": "Five of Pentacles",
+      "korean_name": "펜타클 5",
+      "upright": ["물질적인 트러블"],
+      "reversed": ["회복", "도움받음"],
+      "img_path": "cards/minor_pentacles_5.jpg",
+      "major": false
+    },
+    {
+      "id": 69,
+      "card_id": "6",
+      "name": "Six of Pentacles",
+      "korean_name": "펜타클 6",
+      "upright": ["성공", "선물"],
+      "reversed": ["불공정 거래", "착취"],
+      "img_path": "cards/minor_pentacles_6.jpg",
+      "major": false
+    },
+    {
+      "id": 70,
+      "card_id": "7",
+      "name": "Seven of Pentacles",
+      "korean_name": "펜타클 7",
+      "upright": ["금전", "사업"],
+      "reversed": ["좌절", "결과 부족"],
+      "img_path": "cards/minor_pentacles_7.jpg",
+      "major": false
+    },
+    {
+      "id": 71,
+      "card_id": "8",
+      "name": "Eight of Pentacles",
+      "korean_name": "펜타클 8",
+      "upright": ["장인 기질", "준비"],
+      "reversed": ["재능 낭비", "게으름"],
+      "img_path": "cards/minor_pentacles_8.jpg",
+      "major": false
+    },
+    {
+      "id": 72,
+      "card_id": "9",
+      "name": "Nine of Pentacles",
+      "korean_name": "펜타클 9",
+      "upright": ["물질적인 풍요", "달성"],
+      "reversed": ["낭비", "의존"],
+      "img_path": "cards/minor_pentacles_9.jpg",
+      "major": false
+    },
+    {
+      "id": 73,
+      "card_id": "10",
+      "name": "Ten of Pentacles",
+      "korean_name": "펜타클 10",
+      "upright": ["이익", "재산"],
+      "reversed": ["재정적 불안", "유산 분쟁"],
+      "img_path": "cards/minor_pentacles_10.jpg",
+      "major": false
+    },
+    {
+      "id": 74,
+      "card_id": "Page",
+      "name": "Page of Pentacles",
+      "korean_name": "펜타클 페이지",
+      "upright": ["정려근면", "학생"],
+      "reversed": ["게으름", "집중 부족"],
+      "img_path": "cards/minor_pentacles_11.jpg",
+      "major": false
+    },
+    {
+      "id": 75,
+      "card_id": "Knight",
+      "name": "Knight of Pentacles",
+      "korean_name": "펜타클 기사",
+      "upright": ["유용", "재산"],
+      "reversed": ["고집", "변화 거부"],
+      "img_path": "cards/minor_pentacles_12.jpg",
+      "major": false
+    },
+    {
+      "id": 76,
+      "card_id": "Queen",
+      "name": "Queen of Pentacles",
+      "korean_name": "펜타클 여왕",
+      "upright": ["부", "관대"],
+      "reversed": ["과소비", "비현실적"],
+      "img_path": "cards/minor_pentacles_13.jpg",
+      "major": false
+    },
+    {
+      "id": 77,
+      "card_id": "King",
+      "name": "King of Pentacles",
+      "korean_name": "펜타클 왕",
+      "upright": ["실제적인 지성", "사업"],
+      "reversed": ["탐욕", "비윤리적"],
+      "img_path": "cards/minor_pentacles_14.jpg",
+      "major": false
+    }
+  ]
+}
