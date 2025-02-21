@@ -1,53 +1,75 @@
-/* counseller */
-.counselor {
-  display: flex;
-  justify-content: center;
-}
-
-.image_box {
-  width: 124px;
-  height: 124px;
-  display: flex;
-  margin-right: 10px;
-}
-
-.image {
-  width: 100%;
-}
-
-.card_table {
+.cardSection {
   background-color: var(--dark-color);
   border-radius: 12px;
   margin: 20px 0;
+  padding: 20px;
 }
 
-.selected {
+.questionBox {
+  display: flex;
+  gap: 10px;
+}
+.questionBox > input {
+  width: 80%;
+}
+.questionBox > button {
+  width: 20%;
+}
+.input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.cardCountSelection {
+  display: flex;
+  gap: 20px;
+}
+.cardCountSelection > button {
+  flex: 1;
+}
+
+.selectCardArea {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.selectCardArea > h3 {
+  width: 80%;
+}
+.selectCardArea > button {
+  width: 20%;
+}
+
+.selectedCards {
   display: flex;
   justify-content: center;
   padding: 20px;
 }
 
-.selected_card_position {
+.cardSlot {
   width: 90px;
   height: 130px;
   background-color: var(--grey-color);
   margin-right: 60px;
   border-radius: 4px;
 }
-
-.selected_card_position:last-child {
+.cardSlot:last-child {
   margin-right: 0;
 }
 
-.selected_card {
+.card {
   width: 80px;
   height: 120px;
   margin: 5px 0 0 5px;
   border-radius: 4px;
-  background-image: url(/images/cards/card_back.png);
   background-size: cover;
+  background-position: center;
+  transition:
+    transform 0.6s ease-in-out,
+    background-image 0.6s ease-in-out;
 }
 
-.hidden {
-  display: none;
+.flipping {
+  transform: rotateY(180deg);
 }
